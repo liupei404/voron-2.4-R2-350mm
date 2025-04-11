@@ -3,9 +3,13 @@
 
 # 电器配置
 1.3D打印机主板4/8轴Klipper BIGTREETECH Manta M4P/M5P/M8P 
+
 2.工具头BIGTREETECH EBB SB 2209 USB
+
 3.自动调平传感器IDM涡流电感TAP BIGTREETECH Eddy 3D打印机配件
+
 4.打完关机模块断电短路检测 BIGTREETECH Relay
+
 5.核心板PI4B全志H616树莓派平替CM4开发板Klipper BIGTREETECH CB1
 6.7寸HDMI触摸屏幕 Mellow高清Fly3D隐藏式接线
 7.BIGTREETECH模块TMC2209驱动板42步进电机静音3D打印机配件控制器
