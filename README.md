@@ -1,35 +1,35 @@
-# voron-2.4-R2-350mm
-卧龙2.4 R2版本350mm装机
+## voron-2.4-R2-350mm
+卧龙2.4 R2版本350mm装机，带工具头切刀，BoxTurtle，TN-Pro
 
 # 电器配置
-1.3D打印机主板4/8轴Klipper BIGTREETECH Manta M4P/M5P/M8P 
+1.8轴打印机主板： BIGTREETECH Manta M8P 
 
-2.工具头BIGTREETECH EBB SB 2209 USB
+2.工具头：       BIGTREETECH EBB SB 2209 USB
 
-3.自动调平传感器IDM涡流电感TAP BIGTREETECH Eddy 3D打印机配件
+3.自动调平传感器IDM涡流电感TAP：BIGTREETECH Eddy
 
-4.打完关机模块断电短路检测 BIGTREETECH Relay
+4.打完关机模块断电短路检测： BIGTREETECH Relay （暂时没有使用）
 
-5.核心板PI4B全志H616树莓派平替CM4开发板Klipper BIGTREETECH CB1
+5.核心板CB1： BIGTREETECH CB1
 
-6.7寸HDMI触摸屏幕 Mellow高清Fly3D隐藏式接线
+6.7寸HDMI触摸屏幕： Mellow高清Fly3D隐藏式接线7寸HDMI触摸屏幕
 
-7.BIGTREETECH模块TMC2209驱动板42步进电机静音3D打印机配件控制器
+7.电机驱动板：BIGTREETECH TMC2209驱动板42步进电机静音
 
 # 其他配件
-1.FLY3D打印机配件Voron霍尔效应传感器
+1.XY限位开关：FLY3D打印机配件Voron霍尔效应传感器
 
-2.Mellow Hartk Sexbolt Z轴限位开关注塑套件适用于Voron2.4三叉戟
+2.Z限位开关：Mellow Hartk Sexbolt Z轴限位开关注塑套件适用于Voron2.4三叉戟
 
-3.Mellow高精度CNC加工超平Voron2.4精铸铝热床板3D打印机配件
+3.加热平台：Mellow高精度CNC加工超平Voron2.4精铸铝热床板3D打印机配件
 
-4.DB-3D打印机步进电机Nema17步进电机17HS19-2004S1-22B 48mm
+4.步进电机：DB-3D打印机步进电机Nema17步进电机17HS19-2004S1-22B 48mm
 
-5.VORON V0.1/2.4/trident直线导轨防锈MGN9H带滑块3D打印机DIY配件
+5.直线导轨：VORON V0.1/2.4/trident直线导轨防锈MGN9H带滑块
 
-6.3D打印机步进电机 圆饼小尺寸Nema14 36BYGH沃龙用VORON带延长线
+6.挤出机电机： 圆饼小尺寸Nema14 36BYGH沃龙用VORON带延长线
 
-7.新款VORON2.4/0.2散热器V6陶瓷热端挤出头高速打印套件24V60W配件
+7.热端：新款VORON2.4/0.2散热器V6陶瓷热端挤出头高速打印套件24V60W配件
 
 7.voron2.4光轴 3D打印机配件 同步轮轴DIY 圆轴 D型5mm 负公差精密
 
