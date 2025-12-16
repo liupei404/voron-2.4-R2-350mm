@@ -1,5 +1,8 @@
 # voron-2.4-R2-350mm Klipper AMS 之 BoxTurtle龟盒多色系统构建
-卧龙2.4 R2版本350mm装机，带工具头切刀，BoxTurtle，TN1.0
+- 卧龙2.4 R2版本350mm装机，带工具头切刀，BoxTurtle，TN1.0
+### 本配置使用如下限位
+- 在新版本中原来机械限位不知道怎么设置报错,不得不改用eddy作为限位器
+- eddy Eddy 同时作为自动调平传感器和 Z 轴限位开关,beta Z 轴偏移功能
 
 #  打印机主要组件
 ## 电器配置
@@ -8,7 +11,7 @@
 - 电源：350W 24V   
 - 核心板: BIGTREETECH CB1  
 - 显示器：Mellow高清Fly3D隐藏式接线7寸HDMI触摸屏幕  
-- 相机：广告机免驱广角120度+500万像素摄像头模组,62mm*9mm*6.8mm。罗技 C920 HD Pro（暂时没有使用）  
+- 相机：WLZ-NB13M2413 V22广告机免驱广角120度+1300万像素摄像头模组,65mm*9mm*6.7mm。  
 - 自动调平传感器IDM涡流电感TAP：BIGTREETECH Eddy  
 
 ## USB 工具头
@@ -57,6 +60,14 @@
 - AFC选配件：AFC_Bypass直通和AT_Brush毛刷(暂时没用),BTIO扩展板需要。
 - https://github.com/ArmoredTurtle/AFC-Accessories 
 
+# 多色校准
+- 校准单元 AFC_CALIBRATION
+- 校准挤出机与轮毂之间的距离或Bowden长度 UNIT_CALIBRATION UNIT=Turtle_1
+- 校准选定单元中每个车道的挤出机到轮毂距离 UNIT_LANE_CALIBRATION UNIT=Turtle_1
+- 校准选定单元中特定车道的鲍登长度 UNIT_BOW_CALIBRATION UNIT=Turtle_1
+- 该功能对AFC内一个或多个车道的轮毂和鲍登长度进行校准 （自动丝控系统）CALIBRATE_AFC LANE=all Bowden=lane1 DISTANCE=30 TOLERANCE=3
+CALIBRATE_AFC BOWDEN=lane1` (Calibrates the Bowden length for 'lane1')
+- 该功能调节Bowden管在轮毂与刀头之间的长度。 它获取由“HUB”参数指定的集线器和指定的长度调整 由“长度”参数决定。UNLOAD_LENGTH调整卸载鲍登长度。如果没有指定集线器 如果车道当前加载，它会使用当前车道的枢纽。要把长度重置回配置 值，输入每个长度，重置为配置文件中的值。在 长度会增加或减少鲍登长度 SET_BOWDEN_LENGTH HUB=Turtle_1 LENGTH=+100 UNLOAD_LENGTH=-100
 ## 多色电气
 - 远程挤出机:10齿的36圆饼电机 (四通道单独使用)  
 - LED: 带灯板WS2812-RGB  
